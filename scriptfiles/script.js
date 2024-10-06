@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
               image: "assets/mercury_modal/mercurysurf.png"
           },
           "Venus": {
-              color: "180deg, #000000,#000000,#000000,#000000,#9c7f6a,#b56c4c",
+              color: "180deg, #000000,#000000,#000000,#000000,#000000,#b8a391",  //change this later    
               image: "assets/venus_modal/venus_surf.png"
           },
           "Earth": {
@@ -118,7 +118,6 @@ document.addEventListener('DOMContentLoaded', () => {
           <li class="animated-text" style="--delay: 0.2s;">${planetData.info2}</li>
           <li class="animated-text" style="--delay: 0.3s;">${planetData.info3}</li>
           <li class="animated-text" style="--delay: 0.4s;">${planetData.info4}</li>
-          <li class="animated-text" style="--delay: 0.5s;">${planetData.info5}</li>
         </ul>`;
 
       modalContent.style.backgroundImage = `url(${selectedPlanet.image}), linear-gradient(${selectedPlanet.color})`;
@@ -158,7 +157,6 @@ document.addEventListener('DOMContentLoaded', () => {
               "info2": "Venus is often called Earth’s twin because they’re similar in size and structure, but Venus has extreme surface heat and a dense, toxic atmosphere. If the Sun were as tall as a typical front door, Earth and Venus would each be about the size of a nickel.",
               "info3": "Venus’ thick atmosphere traps heat creating a runaway greenhouse effect – making it the hottest planet in our solar system with surface temperatures hot enough to melt lead. The greenhouse effect makes Venus roughly 700°F (390°C) hotter than it would be without a greenhouse effect.",
               "info4": "Venus has a solid surface covered in dome-like volcanoes, rifts, and mountains, with expansive volcanic plains and vast, ridged plateaus.",
-              "info5": "                        ",
               "gif": "assets/venus_modal/venus.gif"
           },
 
@@ -174,7 +172,6 @@ document.addEventListener('DOMContentLoaded', () => {
               "info2": " Earth has a diameter of about 12,742 kilometers (7,918 miles), making it the fifth-largest planet in the Solar System. Its total surface area is approximately 510 million square kilometers.",
               "info3": "Earth's atmosphere is made up of 78% nitrogen, 21% oxygen, and trace amounts of other gases like carbon dioxide and argon.",
               "info4": "Earth's surface is incredibly diverse, with about 70% covered by oceans, and the remaining 30% consisting of mountains, deserts, plains, and forests.",
-              "info5": "Earth rotates on its axis once every 24 hours, causing day and night. It also takes about 365.25 days to orbit the Sun, giving us a year. The slight tilt of Earth's axis (23.5°) is responsible for the changing seasons.",
               "gif": "assets/earth_modal/earth-ezgif.com-resize.gif"
           },
 
@@ -206,7 +203,6 @@ document.addEventListener('DOMContentLoaded', () => {
               "info2": " Jupiter is the largest planet in the Solar System, with a diameter of about 139,820 kilometers (86,881 miles). It is so massive that it could fit all the other planets inside it and still have room to spare.",
               "info3": "Jupiter's atmosphere is mostly composed of hydrogen (around 90%) and helium (about 10%), with traces of methane, water vapor, and ammonia.",
               "info4": "Jupiter has no solid surface like Earth or Mars. Instead, it’s a gas giant, so its surface is a dense layer of gas, transitioning into a fluid-like state as you move deeper into the planet.",
-              "info5": "Jupiter has the strongest magnetic field of any planet in the Solar System, about 20,000 times stronger than Earth's. This powerful field creates intense radiation belts and massive auroras at its poles.",
               "gif": "assets/jupiter_modal/jupiter.gif"
           },
 
@@ -222,7 +218,6 @@ document.addEventListener('DOMContentLoaded', () => {
               "info2": " Saturn is the second-largest planet in the Solar System, with a diameter of about 116,460 kilometers (72,366 miles). Despite its size, it has the lowest density of any planet, so much so that it would float in water.",
               "info3": "Saturn's atmosphere is primarily composed of hydrogen (about 96%) and helium (about 3%), with traces of methane, ammonia, and other gases. Its atmosphere has stunning banded cloud formations and hosts massive storms.",
               "info4": "Like Jupiter, Saturn is a gas giant and does not have a solid surface. Its visible terrain consists of thick layers of gas, which become denser and hotter as you go deeper.",
-              "info5": "Saturn is famous for its complex and extensive ring system, made mostly of ice and rock particles. These rings are divided into several sections (A, B, C rings, etc.), and they stretch up to 282,000 kilometers (175,000 miles) from the planet.",
               "gif": "assets/saturn_modal/saturn.gif"
           },
 
@@ -238,7 +233,6 @@ document.addEventListener('DOMContentLoaded', () => {
               "info2": "Uranus has a diameter of about 50,724 kilometers (31,518 miles), making it the third-largest planet in the Solar System.",
               "info3": "Uranus' atmosphere is primarily made of hydrogen (about 83%) and helium (about 15%), with a higher proportion of methane (around 2%) compared to Jupiter and Saturn.",
               "info4": "Like the other gas giants, Uranus does not have a solid surface. It is classified as an ice giant because a significant portion of its interior is composed of icy materials such as water, ammonia, and methane, beneath its thick atmosphere.",
-              "info5": " Uranus is unique in the Solar System because it rotates on its side, with an axial tilt of about 98 degrees. This extreme tilt causes its poles to experience 42 years of continuous sunlight followed by 42 years of darkness.",
               "gif": "assets/uranus_modal/Uranus.gif"
           },
 
@@ -254,7 +248,6 @@ document.addEventListener('DOMContentLoaded', () => {
               "info2": "Neptune has a diameter of about 49,244 kilometers (30,598 miles), making it slightly smaller than Uranus but still the fourth-largest planet in the Solar System.",
               "info3": "Neptune's atmosphere is mostly hydrogen (about 80%) and helium (about 19%), with traces of methane, which gives the planet its vivid blue color.",
               "info4": "Neptune, like Uranus, is classified as an ice giant because it has a large amount of icy materials such as water, ammonia, and methane in its interior. It lacks a solid surface, with its outer layers being thick clouds of gas that transition to slushy ice and rock deeper down.",
-              "info5": "Neptune is one of the coldest places in the Solar System, with average atmospheric temperatures around -214 degrees Celsius (-353 degrees Fahrenheit). Despite being farther from the Sun, it emits more internal heat than it receives, suggesting that it has an internal heat source.",
               "gif": "assets/neptune_modal/Neptune.gif"
           }
       }
