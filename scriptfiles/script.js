@@ -288,7 +288,7 @@ document.addEventListener('DOMContentLoaded', () => {
   sun.style.top = `${centerY}px`;
   sun.style.left = `${centerX}px`;
 
-  movePlanet(mercuryContainer, 42, 42, 0.04, centerX, centerY, Math.random() * 2 * Math.PI);
+  movePlanet(mercuryContainer, 45, 42, 0.04, centerX, centerY, Math.random() * 2 * Math.PI);
   movePlanet(venusContainer, 67, 69, 0.007, centerX, centerY, Math.random() * 2 * Math.PI);
   movePlanet(earthContainer, 125, 125, 0.005, centerX, centerY, Math.random() * 2 * Math.PI);
   movePlanet(marsContainer, 175, 170, 0.004, centerX, centerY, Math.random() * 2 * Math.PI);
